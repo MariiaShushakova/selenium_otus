@@ -21,4 +21,6 @@ def browser(request):
     driver.maximize_window()
     driver.base_url = base_url
 
-    return driver
+    yield driver
+    driver.close()
+
