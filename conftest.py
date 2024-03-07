@@ -4,7 +4,7 @@ import pytest
 
 def pytest_addoption(parser):
     parser.addoption("--browser", default="chrome")
-    parser.addoption("--base_url", default="https://google.com")
+    parser.addoption("--base_url", default="https://ouraring.com") #used instead of opencart
 
 
 @pytest.fixture()
