@@ -3,7 +3,7 @@ import pytest
 
 
 def pytest_addoption(parser):
-    parser.addoption("--browser", default="chrome")
+    parser.addoption("--browser", default="ff")
     parser.addoption("--base_url", default="https://ouraring.com")
 
 
